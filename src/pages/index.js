@@ -15,7 +15,7 @@ const IndexPage = () => (
       </h5>
 
         <h3 className="bold">
-          Full stack software developer with 6 years' experience building applications big and small but always clean
+          Full stack software developer with 7 years' experience building applications in a variety of domains, from Fintech to Gaming.
         </h3>
 
         <ProjectsSection />
