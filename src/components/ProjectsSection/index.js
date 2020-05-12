@@ -16,7 +16,7 @@ class ProjectsSection extends React.Component {
             colour='#1e1e1e'
             title='Stack to Basics'
             link='https://stacktobasics.com/'
-            subtitle='A blog which explains concepts in a easy to understand format. Currently focuses on Java and back-end. Created using GatsbyJS and the JAMStack.'
+            subtitle='A blog which explains concepts in a easy to understand format. Focused on Java and back-end for now. Created using GatsbyJS and the JAMStack.'
           />
           <ExperienceUnit
             logo={pokemonEasyCatch}

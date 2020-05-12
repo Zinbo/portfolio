@@ -1,0 +1,13 @@
+@import '../../assets/scss/main.scss';
+
+.skills {
+  .subtitle {   
+    color: $grey-color;
+    font-size: 1.4rem;
+
+    &:not(:first-child) {
+      padding-top: 20px;
+    }
+  }
+}
+
