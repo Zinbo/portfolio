@@ -30,7 +30,7 @@ class ProjectsSection extends React.Component {
             colour='#a1172e'
             title='Toby Carvery Tracker'
             link='https://github.com/Zinbo/tobery-tracker'
-            subtitle='A mobile-friendly PWA to track, score, and review each Toby Carvery to help with my mission to visit every restaurant in the UK.'
+            subtitle='A React PWA to track, score, and review each Toby Carvery to help with my mission to visit every restaurant in the UK.'
           />
         </div>
       </Section>
