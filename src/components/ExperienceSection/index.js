@@ -33,7 +33,7 @@ class ExperienceSection extends React.Component {
             title='Stainless Games'
             link='http://www.stainlessgames.com/'
             timeperiod='2014'
-            subtitle='Worked on the game "Magic: The Gathering - Duels of the Planeswalkers", written in C++ using their own in-house games engine.'
+            subtitle='Worked on the game "Magic Duels", written in C++ using their own in-house games engine.'
           />
         </div>
       </Section>

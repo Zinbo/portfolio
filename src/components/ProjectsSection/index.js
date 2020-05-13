@@ -22,15 +22,15 @@ class ProjectsSection extends React.Component {
             logo={pokemonEasyCatch}
             colour='#CC0000'
             title='Pokemon Easy Catch'
-            link='https://quiz.praagya.com/'
+            link='https://github.com/Zinbo/Pokemon-Easy-Catch'
             subtitle='A mobile app which tells you which Pokémon game has the best catch rate per Pokémon. Built using Flutter, Spring Boot, MongoDB, and the PokéAPI.'
           />
           <ExperienceUnit
             logo={tobyCarveryLogo}
             colour='#a1172e'
             title='Toby Carvery Tracker'
-            link='https://github.com/praagyajoshi/WVWalkthroughView'
-            subtitle='An Angular PWA to track, score, and review each Toby Carvery to help with my mission to visit every restaurant in the UK.'
+            link='https://github.com/Zinbo/tobery-tracker'
+            subtitle='A mobile-friendly PWA to track, score, and review each Toby Carvery to help with my mission to visit every restaurant in the UK.'
           />
         </div>
       </Section>
