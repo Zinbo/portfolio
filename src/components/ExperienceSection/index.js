@@ -3,7 +3,7 @@ import Section from '../Section';
 import ExperienceUnit from '../ExperienceUnit';
 
 import gsLogo from '../../assets/images/experience/gs.png';
-import yokogawaLogo from '../../assets/images/experience/yokogawa-Marex.png';
+import yokogawaLogo from '../../assets/images/experience/Yokogawa-Marex.png';
 import stainlessLogo from '../../assets/images/experience/Stainless-Games.png';
 
 class ExperienceSection extends React.Component {
