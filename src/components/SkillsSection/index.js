@@ -18,8 +18,7 @@ import ddd from '../../assets/images/skills/DDD.png';
 
 import kotlin from '../../assets/images/skills/Kotlin.svg';
 import csharp from '../../assets/images/skills/C_Sharp.svg';
-import rabbitmq from '../../assets/images/skills/rabbitmq.svg';
-import angular from '../../assets/images/skills/angular.svg';
+import rabbitmq from '../../assets/images/skills/Rabbitmq.svg';
 import rxjava from '../../assets/images/skills/rxjava.png';
 import docker from '../../assets/images/skills/docker.png';
 import kubernetes from '../../assets/images/skills/kube.png';
@@ -33,90 +32,29 @@ class SkillsSection extends React.Component {
         <div className='skills'>
           <div className='subtitle'>Proficient:</div>
           <div className='row'>
-            <SkillUnit
-              logo={java}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={spring}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={hibernate}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={mockito}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={javascript}
-              colour='#f7df1eff'
-            />
-            <SkillUnit
-              logo={typescript}
-              colour='#007acc'
-            />
-            <SkillUnit
-              logo={react}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={css3}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={html5}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={node}
-              colour='#000000'
-            />
-            <SkillUnit
-              logo={mongo}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={sql}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={ddd}
-              colour='#029ecf'
-            />
+            <SkillUnit logo={java} colour='#FFFFFF' />
+            <SkillUnit logo={spring} colour='#FFFFFF' />
+            <SkillUnit logo={hibernate} colour='#FFFFFF' />
+            <SkillUnit logo={mockito} colour='#FFFFFF' />
+            <SkillUnit logo={javascript} colour='#f7df1eff' />
+            <SkillUnit logo={typescript} colour='#007acc' />
+            <SkillUnit logo={react} colour='#FFFFFF' />
+            <SkillUnit logo={css3} colour='#FFFFFF' />
+            <SkillUnit logo={html5} colour='#FFFFFF' />
+            <SkillUnit logo={node} colour='#000000' />
+            <SkillUnit logo={mongo} colour='#FFFFFF' />
+            <SkillUnit logo={sql} colour='#FFFFFF' />
+            <SkillUnit logo={ddd} colour='#029ecf' />
           </div>
 
           <div className='subtitle'>Familar:</div>
           <div className='row'>
-            <SkillUnit
-              logo={kotlin}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={rxjava}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={csharp}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={angular}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={docker}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={kubernetes}
-              colour='#FFFFFF'
-            />
-            <SkillUnit
-              logo={rabbitmq}
-              colour='#FFFFFF'
-            />
+            <SkillUnit logo={kotlin} colour='#FFFFFF' />
+            <SkillUnit logo={rxjava} colour='#FFFFFF' />
+            <SkillUnit logo={csharp} colour='#FFFFFF' />
+            <SkillUnit logo={docker} colour='#FFFFFF' />
+            <SkillUnit logo={kubernetes} colour='#FFFFFF' />
+            <SkillUnit logo={rabbitmq} colour='#FFFFFF' />
           </div>
         </div>
       </Section>
