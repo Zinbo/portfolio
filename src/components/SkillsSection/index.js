@@ -53,7 +53,6 @@ class SkillsSection extends React.Component {
             <SkillUnit logo={rxjava} colour='#FFFFFF' />
             <SkillUnit logo={csharp} colour='#FFFFFF' />
             <SkillUnit logo={docker} colour='#FFFFFF' />
-            <SkillUnit logo={kubernetes} colour='#FFFFFF' />
             <SkillUnit logo={rabbitmq} colour='#FFFFFF' />
           </div>
         </div>
