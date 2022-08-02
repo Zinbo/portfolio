@@ -4,7 +4,7 @@ import ExperienceUnit from '../ExperienceUnit';
 
 import stackToBasicsLogo from '../../assets/images/projects/StackToBasics.png';
 import pokemonEasyCatch from '../../assets/images/projects/PokemonEasyCatch.png';
-import tobyCarveryLogo from '../../assets/images/projects/TobyCarveryLogo.png';
+import drivingPassRate from '../../assets/images/projects/DrivingPassRates.png';
 
 class ProjectsSection extends React.Component {
   render() {
@@ -26,11 +26,10 @@ class ProjectsSection extends React.Component {
             subtitle='A mobile app which tells you which Pokémon game has the best catch rate per Pokémon. Built using Flutter, Spring Boot, MongoDB, and the PokéAPI.'
           />
           <ExperienceUnit
-            logo={tobyCarveryLogo}
-            colour='#a1172e'
-            title='Toby Carvery Tracker'
-            link='https://github.com/Zinbo/tobery-tracker'
-            subtitle='A React PWA to track, score, and review each Toby Carvery to help with my mission to visit every restaurant in the UK.'
+            logo={drivingPassRate}
+            title='Driving Pass Rate'
+            link='https://drivingpassrate.co.uk'
+            subtitle='A Next.JS app where you can enter your postcode or select a city and it will show you the Driving Test Centres which have the best pass rates near you, based on GOV.UK data.'
           />
         </div>
       </Section>
