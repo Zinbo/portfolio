@@ -5,12 +5,21 @@ import ExperienceUnit from '../ExperienceUnit';
 import gsLogo from '../../assets/images/experience/gs.png';
 import yokogawaLogo from '../../assets/images/experience/Yokogawa-Marex.png';
 import stainlessLogo from '../../assets/images/experience/Stainless-Games.png';
+import jpLogo from '../../assets/images/experience/jpmorgan.jpg';
 
 class ExperienceSection extends React.Component {
   render() {
     return (
       <Section title='Experience'>
-        <div className='row'>
+        <div className='row' style={{marginBottom: '10px'}}>
+          <ExperienceUnit
+              logo={jpLogo}
+              colour='#00477B'
+              title='J.P. Morgan'
+              link='https://www.jpmorgan.com/'
+              timeperiod='2020 - Present'
+              subtitle="Working in the Investment Banking space as an IC. Leading the upskilling effort of 40+ Java developers through Spotify's Chapter Model. Playing a pivotal role in architecting the move to cloud-native and the cloud."
+          />
           <ExperienceUnit
             logo={gsLogo}
             colour='#FFFFFF'
@@ -27,6 +36,8 @@ class ExperienceSection extends React.Component {
             timeperiod='2014 - 2015'
             subtitle='Worked on the ExaQuantum system, a Plant Information Management System, written in C++.'
           />
+        </div>
+        <div className='row'>
           <ExperienceUnit
             logo={stainlessLogo}
             colour='#000000'

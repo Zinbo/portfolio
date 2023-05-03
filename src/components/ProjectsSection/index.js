@@ -16,7 +16,13 @@ class ProjectsSection extends React.Component {
             colour='#1e1e1e'
             title='Stack to Basics'
             link='https://stacktobasics.com/'
-            subtitle='A blog which explains concepts in a easy to understand format. Focused on Java and back-end for now. Created using GatsbyJS and the JAMStack.'
+            subtitle='A blog which explains development concepts in a easy to understand format. Focues on a range of topics, from front to back end and everything inbetween.'
+          />
+          <ExperienceUnit
+              logo={drivingPassRate}
+              title='Driving Pass Rate'
+              link='https://drivingpassrate.co.uk'
+              subtitle='A Next.JS app where you can enter your postcode or select a city and it will show you the Driving Test Centres which have the best pass rates near you, backed by GOV.UK data.'
           />
           <ExperienceUnit
             logo={pokemonEasyCatch}
@@ -24,12 +30,6 @@ class ProjectsSection extends React.Component {
             title='Pokemon Easy Catch'
             link='https://github.com/Zinbo/Pokemon-Easy-Catch'
             subtitle='A mobile app which tells you which Pokémon game has the best catch rate per Pokémon. Built using Flutter, Spring Boot, MongoDB, and the PokéAPI.'
-          />
-          <ExperienceUnit
-            logo={drivingPassRate}
-            title='Driving Pass Rate'
-            link='https://drivingpassrate.co.uk'
-            subtitle='A Next.JS app where you can enter your postcode or select a city and it will show you the Driving Test Centres which have the best pass rates near you, based on GOV.UK data.'
           />
         </div>
       </Section>

@@ -10,9 +10,8 @@ class About extends Component {
         <div className='bio'>
           Passionate Programmer &amp;&amp;<br></br>
           Meticulous Clean Coder &amp;&amp;<br></br>
-          Devoted Video Gamer &amp;&amp; <br></br>
           Avid Reader
-          <div className='emoji'>👨🏻‍💻&nbsp;🧹&nbsp;🎮&nbsp;📚&nbsp;🏳️‍⚧️</div>
+          <div className='emoji'>👨🏻‍💻&nbsp;🧹&nbsp;📚&nbsp;🎮</div>
         </div>
       </div>
     );

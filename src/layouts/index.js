@@ -1,13 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import get from 'lodash/get'
 
 import './style.scss'
 
-import profileImage from '../assets/images/shane-favicon.jpg'
-import favicon16 from '../assets/favicons/favicon-16x16.png'
-import favicon32 from '../assets/favicons/favicon-32x32.png'
+import profileImage from '../assets/images/me-closer.jpg'
+import favicon from '../assets/favicons/favicon.ico'
 
 class TemplateWrapper extends React.Component {
   render () {
@@ -31,8 +29,7 @@ class TemplateWrapper extends React.Component {
             { property: 'og:description', content: siteDescription },
           ]}
           link={[
-            { rel: 'icon', type: 'image/png', sizes: '16x16', href: favicon16 },
-            { rel: 'icon', type: 'image/png', sizes: '32x32', href: favicon32 }
+            { rel: 'icon', type: 'image/ico', sizes: '32x32', href: favicon }
           ]}
         />
         <div className="template-wrapper-children">
